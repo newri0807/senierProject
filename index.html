@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Something</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<style>
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center" style="height:95vh;">
+            <div style="width:80%;margin: 150px auto; text-align: center;" class="col-md-5">
+                <div class="js-clock center">
+                    <h1 style="color:aliceblue;font-size: 5rem;	filter: drop-shadow(3px 3px 3px #333);
+                    ">00:00</h1>
+                </div>
+                <div class="formContainer" style="padding: 30px 0;">
+                    <form class="js-form">
+                        <div class="form-group ">
+                            <input type="text" placeholder="What is your name?" class="form-control" />
+                        </div>
+                    </form>
+                    <h4 class="js-greetings greetings"></h4>
+                    <form class="js-toDoForm ">
+                        <div class="form-group ">
+                            <input type="text" placeholder="Write a to do" class="form-control border border-light" />
+                        </div>
+                    </form>
+                    <ul class="js-toDoList">
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="col align-self-end">
+            <span class="js-weather" style="color:rgba(242,242,242,.9);"></span>
+        </div>
+
+    </div>
+
+
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+
+
+    <!-- cdn -->
+    <link rel="stylesheet" href="//unpkg.com/bootstrap@4/dist/css/bootstrap.min.css">
+    <script src='//unpkg.com/jquery@3/dist/jquery.min.js'></script>
+    <script src='//unpkg.com/popper.js@1/dist/umd/popper.min.js'></script>
+    <script src='//unpkg.com/bootstrap@4/dist/js/bootstrap.min.js'></script>
+</body>
+
+</html>
