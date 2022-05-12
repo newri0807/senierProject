@@ -6,3 +6,4 @@ https://newri0807.github.io/senierProject/index
 - 바닐라 j로 만들었습니다. 
 
 
+![js-todolist](https://user-images.githubusercontent.com/51315988/167984278-6e39f10c-9ea1-407f-acd6-25d960150115.gif)
